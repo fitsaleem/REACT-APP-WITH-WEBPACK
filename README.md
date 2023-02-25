@@ -104,12 +104,17 @@ import App from "./App";
 import "./App.css";
 const el = document.getElementById("root");
 ReactDOM.render(<App />, el);
-9. Add the following in App.js
+```
+
+***9. Add the following in App.js***
+
+```
 import React from "react";
 const App = () => {
 return <h1>Hello React</h1>;
 };
 export default App;
+
 ```
 
 ***10. in your package.json file, remove the test script in the scripts tag and add the build and serve***
@@ -119,6 +124,7 @@ export default App;
 ```
 "serve": "webpack serve --mode development",
 "build": "webpack --mode production"
+
 ```
 
 ***11. In your terminal run the build script by typing the following command:***
@@ -127,10 +133,10 @@ export default App;
 
 ***12. Serve your application by running:***
 
-```npm run serve```
+```npm run server```
 
 ***13. Browse to localhost:3030 and see your app running. Modify it according to your needs.***
 
-***Remember to add the node_modules dirsctory in the .gitignore file ***
+***Remember to add the node_modules dirsctory in the .gitignore file***
 
 
