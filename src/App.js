@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,7 +9,9 @@ function App() {
   };
 
   const decrementCount = () => {
+    if(count>0){
     setCount(count - 1);
+    }
   };
 
   return (
