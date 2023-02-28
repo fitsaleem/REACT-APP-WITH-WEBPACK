@@ -133,7 +133,7 @@ export default App;
 
 ***12. Serve your application by running:***
 
-```npm run server```
+```npm run serve```
 
 ***13. Browse to localhost:3030 and see your app running. Modify it according to your needs.***
 
